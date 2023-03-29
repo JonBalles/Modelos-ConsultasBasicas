@@ -21,7 +21,7 @@ module.exports = (sequelize, dataTypes) => {
             allowNull: false, 
         },
         rating:{
-            type: dataTypes.FLOAT(3,1),
+            type: dataTypes.DECIMAL(3,1),
             allowNull: true,
         }
     },
