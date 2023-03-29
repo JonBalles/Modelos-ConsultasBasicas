@@ -23,7 +23,7 @@ module.exports = {
             ]
         })
         .then((movies) => {
-         return res.render("moviesList", {movies})
+         return res.render("newestMovies", {movies})
         })
     },
     recomended:(req, res) => {
